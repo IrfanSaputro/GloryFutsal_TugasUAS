@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    tools:context=".Transaksi2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="66dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="145dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAPANGAN 2"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="15dp"
+
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomer Hp"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="15dp"
+
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal/Bulan/Tahun"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal"
+            android:paddingLeft="13dp">
+
+            <Spinner
+                android:id="@+id/Spinner01"
+                android:layout_width="319dp"
+                android:layout_height="35dp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="280dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/textharga"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="138dp"
+                android:text="Harga Rp. 120.000/Jam"
+                android:textColor="#0F0F0F"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/btntrs"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Foto KTP/KTM"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="338dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <ImageView
+                android:id="@+id/captured_photo"
+                android:layout_width="343dp"
+                android:layout_height="138dp"
+                android:layout_above="@id/take_picture"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/captured_image"
+                tools:layout_editor_absoluteX="190dp"
+                tools:layout_editor_absoluteY="454dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <Button
+                android:id="@+id/take_picture"
+                android:layout_width="124dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="60dp"
+                android:background="@color/colorGreen"
+                android:text="AMBIL FOTO"
+                android:textColor="#FFFEFE" />
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="113dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorGreen"
+                android:text="SIMPAN FOTO"
+                android:textColor="#FFFEFE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <Button
+                android:id="@+id/btnbok"
+                android:layout_width="298dp"
+                android:layout_height="40dp"
+                android:background="@color/colorGreen"
+                android:text="BOOKING"
+                android:textColor="#FFFEFE" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Futsal Glory</string>
+
+    // TODO: 22/02/18
+    <string name="home">Home</string>
+    <string name="list">List</string>
+    <string name="history">History</string>
+    <string name="about">About Us</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="simpan">Simpan</string>
+    <string name="captured_image">captured image</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">GLORY FUTSAL</string>
+    <string name="slide_1_desc">Tanpa ribet Tinggal Futsal</string>
+
+    <string name="slide_2_title">BOOKING</string>
+    <string name="slide_2_desc">Pesan Futsal Lapangan Jadi Mudah</string>
+
+    <string name="slide_3_title">FUTSAL</string>
+    <string name="slide_3_desc">Olahraga Jadi Mudah dan Tidak Ribet</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
